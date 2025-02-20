@@ -8,8 +8,6 @@ func main(){
 		 salary float64
 		 area string
 	}
-	// methods are like function but with receiver before function name
-	// where is it used; practical example ;does it have return statement
 	func (s string) somemethod(){
 
 	}
@@ -17,5 +15,5 @@ func main(){
 
 // method, will have receiver usually struct and modify its value 
 // example srtuct name is circle ; with radius and area so next time you see
-//play with that to check how much you know on methods an
+//play with that to check 
 // create instance of circle with pointer so changing at one can change at other so here receiver is pointer . recievr can be value also 
